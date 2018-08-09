@@ -23,9 +23,9 @@ If you're using any code style like xo, standard etc. That will help others whil
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat )](https://github.com/feross/standard)
  
 ## Screenshots
-![screenshot1](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen1.png | width=100)
-![screenshot2](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen2.png | width=100)
-![screenshot3](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen3.png | width=100)
+![screenshot1](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen1.png){:height="50%" width="50%"}
+![screenshot2](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen2.png){:height="50%" width="50%"}
+![screenshot3](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen3.png){:height="50%" width="50%"}
 
 ## currency converter api
  
