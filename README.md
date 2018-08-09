@@ -20,12 +20,12 @@ and able to show cureency currency on current market value
 ## Code style
 If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat )](https://github.com/feross/standard)
  
 ## Screenshots
-![screenshot1](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen1.png)
-![screenshot2](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen2.png)
-![screenshot3](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen3.png)
+![screenshot1](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen1.png =250x250)
+![screenshot2](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen2.png =250x250)
+![screenshot3](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen3.png =250x250)
 
 ## currency converter api
  
