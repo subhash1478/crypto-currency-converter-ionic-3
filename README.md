@@ -23,7 +23,7 @@ etc and able to show currency rate on current market value
 
 ## Screenshots
 ![screenshot1](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen1.png?v=4&s=200)
-![screenshot2](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen2.png?v=4&s=200)
+ 
 ![screenshot3](https://raw.githubusercontent.com/subhash1478/crypto-currency-converter/master/src/assets/screenshot/screen3.png?v=4&s=200)
 
 ## currency converter api
