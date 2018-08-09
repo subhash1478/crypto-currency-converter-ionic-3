@@ -1,0 +1,14 @@
+{
+  "name": "Ionic",
+  "short_name": "Ionic",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/imgs/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#4e8ef7",
+  "theme_color": "#4e8ef7",
+  "play_store_key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhxLpNnPCam3O5ktL21Op0KvbymSeXjhxzBQ9BI3ILLsbADlIHtvQqIv5j/U72VU/bYT5soHcRqN0MGo7c1IYXqjIpW4/gKzdKhOplSRrwS+D24AIqtcqgXAQJzgWV0SoxnaO3e8wMKXk2szRx1xvwxTaaRp2dxu4Zlew4oN0kC+Dv4vFIa4lFdmqAnqLsrg5/N5d1V35bzbLitCZEtWosBknmUJIdxDkm2ZS5G/r/K/EK2ODbAFQJJ5PImpoF59YCJURy2oKXHPIJioLaA/i+RpGa1cplRoIocvQGX/80Dcux5LqkjkDfcsHN4FtQO79HMxttAZ1xmrAlGYu9Qc4twIDAQAB"
+}

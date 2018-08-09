@@ -1,0 +1,138 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>cryptoValue</ion-title>
+   
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+     <h3>CRYPTO</h3>
+    <ion-row>
+      <ion-col >
+        <ion-item >
+          <ion-input type="number" min="0" [(ngModel)]="user.value1"  (keypress)="eventHandler($event.keyCode)"   (ngModelChange)="changedone('1')"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col >
+        <ion-item  class="drop">
+           <ion-input (tap)="openCryptoListingPage(1)"   [(ngModel)]="cryptoValue.sign1" readonly></ion-input>
+          </ion-item>
+   
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col >
+          <ion-item  >
+            <ion-input type="number" min="0"    (keypress)="eventHandler($event.keyCode)"   [(ngModel)]="user.value2" (ngModelChange)="changedone('2')"></ion-input>
+          </ion-item>
+    
+        </ion-col>
+        <ion-col >
+
+            <ion-item  class="drop">
+                <ion-input (tap)="openCryptoListingPage(2)" [(ngModel)]="cryptoValue.sign2"  readonly></ion-input>
+               </ion-item>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col >
+            <ion-item >
+              <ion-input type="number" min="0"     (keypress)="eventHandler($event.keyCode)"   [(ngModel)]="user.value3" (ngModelChange)="changedone('3')"></ion-input>
+            </ion-item>
+       
+          </ion-col>
+          <ion-col >
+
+              <ion-item  class="drop">
+                  <ion-input (tap)="openCryptoListingPage(3)"   [(ngModel)]="cryptoValue.sign3"  readonly></ion-input>
+                 </ion-item>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col >
+              <ion-item >
+                <ion-input type="number" min="0"    (keypress)="eventHandler($event.keyCode)"    [(ngModel)]="user.value4" (ngModelChange)="changedone('4')"></ion-input>
+              </ion-item>
+               
+            </ion-col>
+            <ion-col >
+                <ion-item  class="drop">
+                    <ion-input (tap)="openCryptoListingPage(4)"  [(ngModel)]="cryptoValue.sign4"  readonly></ion-input>
+                   </ion-item>
+        
+              </ion-col>
+            </ion-row>
+
+   <!-- seven button -->
+   <ion-row>
+    <ion-col >
+      <ion-item >
+        <ion-input type="number" min="0"    (keypress)="eventHandler($event.keyCode)"    [(ngModel)]="user.value5" (ngModelChange)="changedone('5')"></ion-input>
+      </ion-item>
+       
+    </ion-col>
+    <ion-col >
+        <ion-item  class="drop">
+            <ion-input (tap)="openCryptoListingPage(5)"  [(ngModel)]="cryptoValue.sign5"  readonly></ion-input>
+           </ion-item>
+
+      </ion-col>
+    </ion-row>
+
+   <!--  -->
+   
+ 
+          <div class="sec-bg">
+            <h3>Currency</h3>
+            <ion-row>
+              <ion-col >
+                <ion-item>
+                  <ion-input type="number" min="0"    (keypress)="eventHandler($event.keyCode)"   [(ngModel)]="user.value6" (ngModelChange)="currencyChanged('6')"></ion-input>
+                </ion-item>
+              </ion-col>
+              <ion-col >
+
+                  <ion-item  class="drop">
+                    <ion-input (tap)="openCurrencyListingPage(6)"   [(ngModel)]="currency.value1" readonly></ion-input>
+                   </ion-item>
+
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col >
+                  <ion-item >
+                    <ion-input type="number" min="0"   (keypress)="eventHandler($event.keyCode)"    [(ngModel)]="user.value7" (ngModelChange)="currencyChanged('7')"></ion-input>
+                  </ion-item>
+                  
+
+
+                  
+                </ion-col>
+                <ion-col >
+                    <ion-item  class="drop">
+                        <ion-input (tap)="openCurrencyListingPage(7)"   [(ngModel)]="currency.value2" readonly></ion-input>
+                       </ion-item>
+
+                 
+                  </ion-col>
+                </ion-row>
+              </div>
+              <!-- FREE VERSION -->
+              <div class="free-ver" *ngIf="!paidVersion">
+                <ion-row class="free-top">
+                  <ion-col>
+                    <button ion-button (click)="clear()"> CLEAR</button>
+                  </ion-col>
+                  <ion-col>
+                    <button  ion-button (click)="reFresh()"  (keyup.enter)="reFresh()">Refresh</button>
+                  </ion-col>
+                </ion-row>
+                <!-- <ion-row>
+                  <ion-col>
+                    <button ion-button (click)="goHelp('HelpPage')">Donate</button>
+                  </ion-col>
+                </ion-row> -->
+             
+              </div> 
+           
+              
+            </ion-content>

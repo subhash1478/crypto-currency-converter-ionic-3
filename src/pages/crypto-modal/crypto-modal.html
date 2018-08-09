@@ -1,0 +1,26 @@
+ 
+<ion-content padding>
+  
+  <div class="serch-div">
+    <h2>Crypto</h2>
+    <ion-searchbar
+  [(ngModel)]="myInput"
+  [showCancelButton]="shouldShowCancel"
+  (ionInput)="getItems($event)"
+  (ionCancel)="onCancel($event)">
+  </ion-searchbar>
+
+  <ion-list class="serachList" radio-group [(ngModel)]="cryptoValue">
+  
+  <ion-item  *ngFor="let list of cryptoSymbol">
+      <ion-label>{{list.symbol}}</ion-label>
+    <ion-radio [value]="list"  ></ion-radio>
+  </ion-item>
+  </ion-list>
+  <div class="searchBtn"></div>
+
+  <button ion-button (click)="dismiss()">Cancel</button>
+  <button ion-button (click)="dismiss()">Ok</button>
+  </div>
+
+</ion-content>

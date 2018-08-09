@@ -1,0 +1,99 @@
+page-currency-modal {
+    .content{
+        background-color: transparent;
+    }
+    .serch-div{
+        background-color: #fff;
+        
+        height: auto;
+        padding-bottom: 10px;
+        text-align: right;
+        margin: 120px auto 0;
+        padding-top: 20px;
+        box-shadow: 0 16px 20px rgba(0, 0, 0, 0.4);
+    }
+    .serachList{
+        height: 300px;
+        overflow-y: scroll;
+    
+    }
+     
+    .serch-div h2{
+ 
+         color: #000;
+         text-align:center;
+        
+    }
+    
+    /******** MEDIA QUERY **********/
+    @media (min-width: 575px) {
+        .serch-div{
+        max-width: 380px;
+        min-width: 350px;
+        margin: 150px auto 0;
+    }
+    .serch-div h2{
+        font-size: 30px;
+         font-family: 'quicksandregular';
+         color: #000;
+         text-align: left;
+         border-bottom: 1px solid #ccc;
+         margin-bottom: 0px;
+         padding-bottom: 10px;
+         padding-left: 10px;
+    }
+    .serachList{
+        height: 275px;
+        overflow-y: scroll;
+    }
+    .serachList .item .label{
+        font-size: 22px;
+         font-family: 'quicksandregular';
+         color: #000;
+    }
+    .searchbar .searchbar-input{
+        height: 60px;
+        font-size: 22px;
+         font-family: 'quicksandregular';
+         color: #000;
+    }
+    .searchbar .searchbar-search-icon{
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+        top:16px;
+    }
+    .serch-div .button{
+       font-size: 26px;
+
+    }
+    
+    }
+    @media (min-width: 768px) {
+       
+    .serachList{
+        height: 375px;
+        overflow-y: scroll;
+    }
+    .serachList .item{
+        margin: 10px 0px;
+    }
+    .serachList .item .label{
+        font-size: 28px;
+         
+    }
+    .searchbar .searchbar-input{
+        height: 80px;
+        font-size: 28px;
+    }
+    .searchbar .searchbar-search-icon{
+        width: 30px;
+        height: 30px;
+        background-size: 30px;
+        top:26px;
+    }
+    .searchbar-ios.searchbar-left-aligned .searchbar-input{
+        padding-left:55px;
+    }
+    }
+}
