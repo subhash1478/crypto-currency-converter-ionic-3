@@ -1,11 +1,11 @@
 ## cryptocurrency converter calculator
 This is  ionic app version 3 angular 5
 this app will show  Top 300 Cryptocurrencies By Market Capitalization
-| Crypto   |  
-| -------- | 
-| Bitcoin  |  
-| Ethereum |  
-| XRP      |  
+# Crypto   
+ 
+* Bitcoin
+- Ethereum
++ XRP
  
 etc and able to show cureency currency on current market value
 
