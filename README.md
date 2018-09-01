@@ -4,8 +4,8 @@ this app will show  Top 300 Cryptocurrencies By Market Capitalization
 ### Crypto   
 
 
-##DEMO
- - [DEMO](https://crypto-currency-converter-ionic-3.stackblitz.io/)
+#DEMO  
+[https://crypto-currency-converter-ionic-3.stackblitz.io/](https://crypto-currency-converter-ionic-3.stackblitz.io/)
 
 
 * Bitcoin
